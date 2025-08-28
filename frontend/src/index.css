@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+.active hr {
+  @apply block
+}
+* {
+  font-family: 'Outfit';
+}
+
+@media(max-width:740px){
+  .active P {
+    @apply text-white bg-[#5f6FFF]
+  }
+}
