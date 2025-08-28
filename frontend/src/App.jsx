@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/home";
-import Doctors from "./pages/doctors";
-import Login from "./pages/login";
-import About from "./pages/about";
-import Contact from "./pages/contact";
-import Myprofile from "./pages/myprofile";
+import Home from "./pages/Home";
+import Doctors from "./pages/Doctors";
+import Login from "./pages/Login";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Myprofile from "./pages/Myprofile";
 import Myappoitments from "./pages/Myappointments";
 import Appointment from "./pages/Appointment";
 import Navbar from "./components/Navbar";
