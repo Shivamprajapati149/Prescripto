@@ -8,7 +8,7 @@ Prescripto is a **MERN-stack web application** designed to provide patients with
 
 ## 🌐 Live Demo
 
-🚀 **Live Application:** [https://your-prescripto-live-link.com](https://prescripto.vercel.app/)
+🚀 **Live Application:** (https://prescripto.vercel.app/)
 
 
 ---
