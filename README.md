@@ -6,6 +6,14 @@ Prescripto is a **MERN-stack web application** designed to provide patients with
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **Live Application:** [https://your-prescripto-live-link.com](https://prescripto.vercel.app/)
+
+> Replace the above URL with your deployed Prescripto application link.
+
+---
+
 ## ✨ Features
 
 ### 👤 Patient Features
@@ -268,9 +276,6 @@ Allows users to view and update their profile information.
 
 Cloudinary is used for storing and managing uploaded images.
 
-
-
-
 ---
 
 ## 🎯 Project Highlights
@@ -297,6 +302,13 @@ Cloudinary is used for storing and managing uploaded images.
 ---
 
 ## ⭐ Support
+
+If you found this project useful, consider giving the repository a **⭐ Star** on GitHub.
+
+---
+
+**🚀 Live Demo:** [View Prescripto](https://your-prescripto-live-link.com)
+
 
 If you like this project, consider giving the repository a **⭐ Star** on GitHub.
 
