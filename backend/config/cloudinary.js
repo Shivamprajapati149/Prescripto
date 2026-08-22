@@ -13,4 +13,4 @@ const connectCloudinary = async ()=> {
     console.log ("Cloudinary connected")
 }
 
-export default connectCloudinary
+export default connectCloudinaryy
