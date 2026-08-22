@@ -3,6 +3,7 @@ import doctorModel from "../models/doctorModel.js";
 const changeAvailablity = async (req, res) => {
   try {
     const { docId } = req.body;
+    console.log("Received docId:", docId);
     const docData = await doctorModel.findById(docId);
       // Toggle availability
     docData.available = !docData.available;

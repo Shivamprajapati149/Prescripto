@@ -24,8 +24,8 @@ const Appointment = () => {
 
 
   const fetchDocInfo = async () => {
-
-      const docInfo  = doctors.find(doc => doc.id === docId )  // 👈 dono ko string banaya
+ 
+      const docInfo  = doctors.find(doc => doc._id === docId )  // 👈 dono ko string banaya
     
       setDocInfo(docInfo);
       console.log(docInfo);
@@ -99,10 +99,11 @@ const Appointment = () => {
       let year = date.getFullYear();
 
       const slotDate = day + "_" + month + "_" + year;
+      
 
       const { data } = await axios.post(
         backendUrl + "/api/user/book-appointment",
-        { docId, slotDate, slotTime },
+        { docId, slotDate, slotTime},
         { headers: { token } }
       );
       if (data.success) {
